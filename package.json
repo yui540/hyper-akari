@@ -1,0 +1,20 @@
+{
+  "name": "hyper-akari",
+  "version": "0.0.0",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build:dev": "cross-env MODE=development webpack",
+    "build:releases": "cross-env MODE=production webpack",
+    "watch": "cross-env MODE=development webpack --watch"
+  },
+  "license": "MIT",
+  "author": "yui540 <tabletennis540@gmail.com>",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.2.0",
+    "webpack": "^4.15.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
