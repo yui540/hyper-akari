@@ -22,6 +22,7 @@ exports.decorateConfig = config => {
   }, config.hyperAkari)
 
   if (browserWindow) {
+    // https://electronjs.org/docs/api/browser-window#winsetvibrancytype-macos
     browserWindow.setVibrancy(options.vibrancy)
   }
 
