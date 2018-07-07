@@ -1,4 +1,5 @@
 # HyperAkari
+
 ![poster](./res/poster.png)
 
 HyperAkariは、ターミナルエミュレータ「Hyper」のテーマプラグインです。
@@ -9,11 +10,13 @@ HyperAkariは、ターミナルエミュレータ「Hyper」のテーマプラ�
 ![screenshot](./res/screenshot.png)
 
 ## 使い方
+
 ```bash
 $ hyper i hyper-akari
 ```
 
 ## オプション
+
 ```js:.hyper.js
 config: {
   // ...
