@@ -6,7 +6,7 @@ export const cursorColor = '#8FBCBB'
 
 export const selectionColor = 'rgba(136,192,208,0.5)'
 
-export const borderColor = backgroundColor
+export const borderColor = 'rgba(136,192,208,0.2)'
 
 export const colors = {
   black: 'rgba(136,192,208,0.1)',
