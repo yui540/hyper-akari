@@ -1,6 +1,5 @@
 import {
   foregroundColor,
-  backgroundColor,
   borderColor,
   selectionColor,
   colors,
@@ -10,19 +9,19 @@ import { termCSS, css } from './stylesheets'
 
 exports.decorateConfig = config => {
   return Object.assign({}, config, {
+    backgroundColor: "transparent",
     foregroundColor,
-    backgroundColor,
     borderColor,
     selectionColor,
     colors,
     cursorColor,
     termCSS: `
       ${ config.termCSS || '' }
-      ${ termCSS }
     `,
     css: `
       ${ config.css || '' }
       ${ css }
+      ${ termCSS }
     `
   })
 }
