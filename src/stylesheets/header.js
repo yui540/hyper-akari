@@ -1,9 +1,10 @@
+import color from 'color'
 import {
   backgroundColor,
   foregroundColor
 } from '../colors'
 
-export default (options) => {
+export default ({ vibrancyOpacity }) => {
   return `
     .header_header {
       background-color: rgba(255,255,255,0.08);
@@ -11,7 +12,7 @@ export default (options) => {
     .tabs_title {
       position: relative;
       padding: 0;
-      background-color: ${ backgroundColor };
+      background-color: ${ color(backgroundColor).fade(1 - vibrancyOpacity) };
     }
     .tabs_title:after {
       content: "";
@@ -42,7 +43,7 @@ export default (options) => {
     }
     .tab_tab.tab_active {
       border: none;
-      background-color: ${ backgroundColor };
+      background-color: ${ color(backgroundColor).fade(1 - vibrancyOpacity) };
     }
     .tab_active:after {
       transform: translateX(0%);
