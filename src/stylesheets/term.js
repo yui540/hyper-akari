@@ -1,9 +1,6 @@
 import illust from '../images/mirai-akari.svg'
 
-export default (options) => {
-  const show = (options.illust === undefined) ? true : options.illust
-  const opacity = (options.opacity === undefined) ? 0.3 : options.opacity
-
+export default ({ illust: show, opacity }) => {
   return `
     .terms_terms:before {
       content: "";
