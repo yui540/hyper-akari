@@ -33,7 +33,7 @@ export default (options) => {
       content: "";
       display: block;
       position: absolute;
-      bottom: 1px; left: 0;
+      bottom: 0px; left: 0;
       width: 100%; height: 1px;
       background-color: ${ foregroundColor };
       opacity: 0.7;
