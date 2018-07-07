@@ -18,8 +18,10 @@ $ hyper i hyper-akari
 config: {
   // ...
   hyperAkari: {
-    illust: true, // イラストを表示するか（デフォルトはtrue）
-    opacity: 0.3 // イラストの透明度0~1（デフォルトは0.3）
+    illust: true, // イラストを表示するか（デフォルトは true）
+    opacity: 0.3, // イラストの透明度 0~1（デフォルトは 0.3）
+    vibrancy: 'dark', // オープン動的効果 (デフォルトは dark)
+    vibrancyOpacity: '', // ダイナミックエフェクトの透明度 0~1 (デフォルトは 0.7)
   },
   // ...
 }
