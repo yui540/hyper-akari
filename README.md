@@ -5,6 +5,7 @@ HyperAkariは、ターミナルエミュレータ「Hyper」のテーマプラ�
 
 青をメインにした色合いになっています。
 
+![poster2](./res/poster2.png)
 ![screenshot](./res/screenshot.png)
 
 ## 使い方
