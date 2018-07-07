@@ -8,6 +8,8 @@ import {
 import { termCSS, css } from './stylesheets'
 
 exports.decorateConfig = config => {
+  const options = config.hyperAkari || {}
+
   return Object.assign({}, config, {
     backgroundColor: "transparent",
     foregroundColor,
@@ -20,8 +22,8 @@ exports.decorateConfig = config => {
     `,
     css: `
       ${ config.css || '' }
-      ${ css }
-      ${ termCSS }
+      ${ css(options) }
+      ${ termCSS(options) }
     `
   })
 }

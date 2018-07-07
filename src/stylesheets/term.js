@@ -1,18 +1,26 @@
 import illust from '../images/mirai-akari.svg'
 
-export default `
-  .terms_terms:before {
-    content: ""; display: block;
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background-image: url(${ illust });
-    background-size: auto 80%;
-    background-position: right bottom;
-    background-repeat: no-repeat;
-    opacity: 0.3;
-  }
-  .xterm .xterm-viewport {
-    background-color: rgba(0,0,0,0) !impotant;
-  }
-`
+export default (options) => {
+  const show = (options.illust === undefined) ? true : options.illust
+  const opacity = (options.opacity === undefined) ? 0.3 : options.opacity
+
+  return `
+    .terms_terms:before {
+      content: "";
+      display: ${ show ? 'block' : 'none' };
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url(${ illust });
+      background-size: auto 80%;
+      background-position: right bottom;
+      background-repeat: no-repeat;
+      opacity: ${ opacity };
+    }
+    .xterm .xterm-viewport {
+      background-color: rgba(0,0,0,0) !impotant;
+    }
+  `
+}
