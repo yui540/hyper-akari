@@ -1,10 +1,15 @@
 export const backgroundColor = '#2E3440'
+
 export const foregroundColor = '#8FBCBB'
+
 export const cursorColor = '#8FBCBB'
+
 export const selectionColor = 'rgba(136,192,208,0.5)'
+
 export const borderColor = backgroundColor
+
 export const colors = {
-  black: '#65737e',
+  black: 'rgba(136,192,208,0.1)',
   red: '#bf616a',
   green: '#9EBB8B',
   yellow: '#ebcb8b',
