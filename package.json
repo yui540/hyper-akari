@@ -1,12 +1,20 @@
 {
   "name": "hyper-akari",
-  "version": "0.0.0",
-  "main": "./dist/index.js",
+  "description": "🦋MiraiAkari themes for your Hyper terminal",
+  "version": "0.0.1",
+  "main": "index.js",
   "scripts": {
     "build": "cross-env MODE=production webpack",
     "build:dev": "cross-env MODE=development webpack",
     "watch": "cross-env MODE=development webpack --watch"
   },
+  "keywords": [
+    "hyper",
+    "hyper-akari",
+    "theme",
+    "mirai-akari"
+  ],
+  "repository": "https://github.com/yui540/hyper-akari.git",
   "license": "MIT",
   "author": "yui540 <tabletennis540@gmail.com>",
   "devDependencies": {
