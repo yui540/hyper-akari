@@ -24,6 +24,7 @@ exports.decorateConfig = config => {
   if (browserWindow) {
     // https://electronjs.org/docs/api/browser-window#winsetvibrancytype-macos
     browserWindow.setVibrancy(options.vibrancy)
+    browserWindow = null
   }
 
   return Object.assign({}, config, {
