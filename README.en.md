@@ -1,6 +1,8 @@
 # HyperAkari
 ![poster](./res/poster.png)
 
+[README 日本語](README.md)
+
 Hyperakari is a theme plugin for the terminal emulator called Hyper.
 
 It uses blue as a base tone.

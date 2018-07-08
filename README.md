@@ -1,6 +1,8 @@
 # HyperAkari
 ![poster](./res/poster.png)
 
+[English README](README.en.md)
+
 HyperAkariは、ターミナルエミュレータ「Hyper」のテーマプラグインです。
 
 青をメインにした色合いになっています。
