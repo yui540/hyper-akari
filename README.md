@@ -2,11 +2,21 @@
 
 ![poster](./res/poster.png)
 
-[English README](README.en.md)
-
 HyperAkariは、ターミナルエミュレータ「Hyper」のテーマプラグインです。
 
 青をメインにした色合いになっています。
+
+- 登場するキャラクター
+  - ミライアカリ
+  - [YouTubeチャンネル](https://www.youtube.com/channel/UCMYtONm441rBogWK_xPH9HA)
+- 開発者
+  - yui540
+  - [Twitter - @yui540](https://twitter.com/yui540)
+- README
+  - [Japanese](./README.md)
+  - [English](./README.en.md)
+
+# スクリーンショット
 
 ![poster2](./res/poster2.png)
 ![screenshot](./res/screenshot.png)
