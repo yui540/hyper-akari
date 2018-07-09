@@ -9,6 +9,7 @@ It uses blue as a base tone.
 
 ![poster2](./res/poster2.png)
 ![screenshot](./res/screenshot.png)
+![screenshot2](./res/screenshot2.png)
 
 ## Usage
 ```bash
@@ -22,6 +23,8 @@ config: {
   hyperAkari: {
     illust: true, // Whether to show the image or not (default: true)
     opacity: 0.3 // Opacity of the image（default: 0.3）
+    vibrancy: 'dark', // (default: dark)
+    vibrancyOpacity: 0.7, // (default: 0.7)
   },
   // ...
 }

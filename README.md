@@ -10,6 +10,7 @@ HyperAkariは、ターミナルエミュレータ「Hyper」のテーマプラ�
 
 ![poster2](./res/poster2.png)
 ![screenshot](./res/screenshot.png)
+![screenshot2](./res/screenshot2.png)
 
 ## 使い方
 
