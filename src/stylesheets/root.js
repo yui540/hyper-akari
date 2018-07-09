@@ -1,9 +1,10 @@
+import color from 'color';
 import { backgroundColor } from '../colors'
 
-export default (options) => {
+export default ({ vibrancyOpacity }) => {
   return `
     .hyper_main {
-      background-color: ${ backgroundColor };
+      background-color: ${ color(backgroundColor).fade(1 - vibrancyOpacity) };
     }
   `
 }
