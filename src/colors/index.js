@@ -24,5 +24,5 @@ export const colors = {
   lightBlue: '#88C0D0',
   lightMagenta: '#b48ead',
   lightCyan: '#8FBCBB',
-  lightWhite: '#eff1f5'
+  lightWhite: '#eff1f5',
 }

@@ -1,10 +1,7 @@
 import color from 'color'
-import {
-  backgroundColor,
-  foregroundColor
-} from '../colors'
+import {backgroundColor, foregroundColor} from '../colors'
 
-export default ({ vibrancyOpacity }) => {
+export default ({vibrancyOpacity}) => {
   return `
     .header_header {
       background-color: rgba(255,255,255,0.08);
@@ -12,7 +9,7 @@ export default ({ vibrancyOpacity }) => {
     .tabs_title {
       position: relative;
       padding: 0;
-      background-color: ${ color(backgroundColor).fade(1 - vibrancyOpacity) };
+      background-color: ${color(backgroundColor).fade(1 - vibrancyOpacity)};
     }
     .tabs_title:after {
       content: "";
@@ -22,7 +19,7 @@ export default ({ vibrancyOpacity }) => {
       left: 0;
       width: 100%;
       height: 1px;
-      background-color: ${ foregroundColor };
+      background-color: ${foregroundColor};
       opacity: 0.7;
     }
     .tab_tab {
@@ -36,14 +33,14 @@ export default ({ vibrancyOpacity }) => {
       position: absolute;
       bottom: 0px; left: 0;
       width: 100%; height: 1px;
-      background-color: ${ foregroundColor };
+      background-color: ${foregroundColor};
       opacity: 0.7;
       transform: translateX(-100%);
       transition: all 0.4s ease 0s;
     }
     .tab_tab.tab_active {
       border: none;
-      background-color: ${ color(backgroundColor).fade(1 - vibrancyOpacity) };
+      background-color: ${color(backgroundColor).fade(1 - vibrancyOpacity)};
     }
     .tab_active:after {
       transform: translateX(0%);
@@ -63,7 +60,7 @@ export default ({ vibrancyOpacity }) => {
       width: 100%;
       height: 100%;
       border-radius: 50%;
-      background-color: ${ foregroundColor };
+      background-color: ${foregroundColor};
       opacity: 0.3;
       transform: scale(0);
       transition: all 0.3s ease 0s;
