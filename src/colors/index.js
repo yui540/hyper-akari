@@ -1,28 +1,28 @@
 export const backgroundColor = '#2E3440'
 
-export const foregroundColor = '#8FBCBB'
+export const foregroundColor = '#F8F8F0'
 
-export const cursorColor = '#8FBCBB'
+export const cursorColor = '#fff'
 
 export const selectionColor = 'rgba(136,192,208,0.5)'
 
 export const borderColor = 'rgba(136,192,208,0.2)'
 
 export const colors = {
-  black: 'rgba(136,192,208,0.1)',
-  red: '#bf616a',
-  green: '#9EBB8B',
-  yellow: '#ebcb8b',
-  blue: '#88C0D0',
-  magenta: '#b48ead',
-  cyan: '#8FBCBB',
-  white: '#eff1f5',
+  black: backgroundColor,
+  red: '#c45c66',
+  green: '#c3ce5f',
+  yellow: '#FD971F',
+  blue: '#49a9a4',
+  magenta: '#66D9EF',
+  cyan: '#38CCD1',
+  white: '#ffffff',
   lightBlack: '#65737e',
-  lightRed: '#bf616a',
-  lightGreen: '#9EBB8B',
-  lightYellow: '#ebcb8b',
-  lightBlue: '#88C0D0',
-  lightMagenta: '#b48ead',
-  lightCyan: '#8FBCBB',
-  lightWhite: '#eff1f5',
+  lightRed: '#c45c66',
+  lightGreen: '#c3ce5f',
+  lightYellow: '#FD971F',
+  lightBlue: '#49a9a4',
+  lightMagenta: '#66D9EF',
+  lightCyan: '#38CCD1',
+  lightWhite: foregroundColor,
 }
